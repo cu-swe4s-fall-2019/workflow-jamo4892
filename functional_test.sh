@@ -6,7 +6,6 @@ test -e ssshtest || wget -q https://raw.githubusercontent.com/ryanlayer/ssshtest
 
 pycodestyle get_gene_counts.py
 pycodestyle get_tissue_samples.py
-pycodestyle box.py
 # Verify formatting standards.
 
 run gene_test python get_gene_counts.py 'GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_reads.acmg_59.gct.gz' 'SDHB' SDHB_counts.txt
