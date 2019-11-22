@@ -2,9 +2,6 @@ import argparse
 import sys
 # Import modules.
 
-# python get_tissue_samples.py 'GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt' 'Blood' 'test.txt'
-# This command makes a text file with something in it. Use it for a functional test.
-
 
 def main(in_file, tissue, out_file):
     """

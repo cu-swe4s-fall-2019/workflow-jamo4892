@@ -3,9 +3,6 @@ import gzip
 import argparse
 # Import modules.
 
-# python get_gene_counts.py 'GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_reads.acmg_59.gct.gz' 'SDHB' sdhb.txt
-# This command makes a text file with something in it. Use it for a functional test.
-
 if __name__ == '__main__':
     """
     Main function.
