@@ -16,7 +16,3 @@ assert_exit_code 0
 run sample_test python get_tissue_samples.py 'GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt' 'Blood' 'Blood_samples.txt'
 assert_exit_code 0
 # Test output of get_tissue_samples.py
-
-run blood_test python box.py -tissue Blood -genes SDHB -out_name Blood.png
-assert_exit_code 0
-# Test output of box.py.
